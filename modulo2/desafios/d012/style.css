@@ -36,39 +36,43 @@ main {
 }
 
 section {
-    padding: 80px 0px 100px 30px;
+    padding: 10vh 0px 10vh 30px;
     font-size: 3.5vw;
     line-height: 2em;
     font-weight: 3.5vw;
 }
 
 section > p {
-    padding-bottom: 50px;
+    padding-bottom: 3vh;
+    padding-inline: 3.5vh;
 }
 
-div {
-    background-color: rgba(0, 0, 0, 0.507);
+section.fundo > p {
+    background-color: rgba(0, 0, 0, 0.493);
+    display: inline-block;
+
+}
+
+#imagem1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#imagem2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+
+.fundo {
+    background-color: black;
     color: white;
-    width: 400px;
-    padding-left: 8px;
-    padding-block: 10px;
-}
-
-.fundo1 {
+    box-shadow: 1px 1px 15px black;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.fundo2 {
-    background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
